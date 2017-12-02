@@ -7,6 +7,7 @@ This is my professional portfolio. It uses AWS and ReactJS
 Powershell
 Git and github
 SSH
-htmlCSS
+HTML
+CSS
 Font awesome
 Google Fonts
