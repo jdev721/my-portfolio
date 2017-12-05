@@ -5,7 +5,7 @@ import ExampleWork from './example-work'
 const myWork = [
   {
     'title': "A Serverless Portfolio",
-    'href': "images/PortfolioCode.jpg",
+    'href': "images/PortfolioDiagram.jpg",
     'desc': `When you visit this portfolio, you go to my domain managed by Amazon Route 53. This directs the request to the Cloudfront Content Delivery Network, which distributes my portfolio worldwide. Cloudfront retrieves the portfolio from an Amazon Simple Storage Service (S3) Bucket, the portfolio that arrives on your device is a combination of HTML, CSS, JavaScript and Images.
 The frontend component, which is running on your device, uses the React JavaScript Library to provide interactivity. It also uses the Babel JavaScript compiler to ensure that it runs in almost any browser.
 Taken together, all these things make up the frontend of this application.
@@ -19,7 +19,7 @@ To get the portfolio to S3: First, my machine was set up as a development enviro
   },
   {
     'title': "Note Converter Application",
-    'href': "images/example2.png",
+    'href': "images/PollyDiagram.jpg",
     'desc': `The website is hosted in S3. In this website you enter your notes. Once you've entered those notes in the site executes a post to
 an Amazon API Gateway, which triggers a Lambda function. This function puts the notes into Amazon DynamoDB, a managed noSQL Database. Lambda then triggers an SNS event that triggers another Lambda function, which takes the notes and passes them to the Amazon Polly Service, which in turn returns the notes as MP3 audio file.
 The MP3 file is saved to S3 bucket. The Lambda function then updates DynamoDB stating that the notes have been converted into audio.
@@ -34,7 +34,7 @@ Then you visit the site and search for notes. This triggers API Gateway, which t
   },
   {
     'title': "Alexa Skill",
-    'href': "https://example.com",
+    'href': "images/AlexaSkill.jpg",
     'desc': `In this project I programmed an Alexa Skill in order to be able to interact with and hear
     the notes I have created using the Note to Speech project.
     It uses AWS Lambda and the Amazon Developer platform to set things like invocation name, intent schema, slot type,
