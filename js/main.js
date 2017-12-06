@@ -4,7 +4,7 @@ import ExampleWork from './example-work'
 
 const myWork = [
   {
-    'title': "A Serverless Portfolio",
+    'title': "Serverless Portfolio with AWS & ReactJS",
     'href': "images/PortfolioDiagram.jpg",
     'desc': `This portfolio is built on Amazon Web Services and ReactJS. On landing, you go to my domain managed by Amazon Route 53. This directs the request to the Cloudfront Content Delivery Network, which distributes my portfolio worldwide. Cloudfront retrieves the portfolio from an Amazon Simple Storage Service (S3) Bucket, the portfolio that arrives on your device is a combination of HTML, CSS, JavaScript and Images.
 The frontend component, which is running on your device, uses the React JavaScript Library to provide interactivity. It also uses the Babel JavaScript compiler to ensure that it runs in almost any browser.
